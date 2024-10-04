@@ -4,11 +4,15 @@ export const perguntas = [
         alternativas: [
             {
                 texto: " Lugares Quentes ",
-                afirmacao: " Lembre-se de levar protetor solar. ",
+                afirmacao: [ " Lembre-se de levar protetor solar. ",
+                    "Lembre-se de levar seu bronzeador preferido.",
+                ]
             },
             {
                 texto: " Lugares Frios ",
-                afirmacao: " Lembre-se de levar agasalhos. ",
+                afirmacao: [ " Lembre-se de levar agasalhos. ",
+                    " Lembre-e de levar seu melhor hidratante. ",
+                ]
             }
         ]
     },
@@ -17,11 +21,15 @@ export const perguntas = [
         alternativas: [
             {
                 texto: " Lugares agitados e movimentados ",
-                afirmacao: " Sempre fique atento, mantenha seus pertences próximos. ",
+                afirmacao: [ " Sempre fique atento, mantenha seus pertences próximos. ",
+                    " Planeje sua rota, use aplicativos de mapas para evitar áreas congestionadas. ",
+                ]
             },
             {
                 texto: " Lugares calmos e aconchegantes ",
-                afirmacao: " Aproveite suas férias para tirar um descanso. ",
+                afirmacao: [ " Aproveite suas férias para tirar um descanso. ",
+                    " Desconecte-se, aproveite para desligar-se das redes sociais desfrutar do momento. ",
+                ]
             }
         ]
     },
@@ -30,11 +38,15 @@ export const perguntas = [
         alternativas: [
             {
                 texto: " Família e/ou pets ",
-                afirmacao: " Hotéis ou resort's são a melhor opção para você. ",
+                afirmacao: [ " Hotéis ou resort's são a melhor opção para você.",
+                    " Faça paradas regulares, pare algumas horas para que os pets possam esticar as pernas e se hidratar. ",
+                ]
             },
             {
                 texto: " Amigos ",
-                afirmacao: " AirBnb e empresas de turismo podem te auxiliar. ",
+                afirmacao: [ " AirBnb e empresas de turismo podem te auxiliar. ",
+                    " Planeje atividades que todo possam aproveitar. ",
+                ]
             }
         ]
     },
@@ -43,11 +55,15 @@ export const perguntas = [
         alternativas: [
             {
                 texto: " Até três salários mínimos ",
-                afirmacao: " Boa opção para você são viagens nacionais. ",
+                afirmacao: [ " Boa opção para você são viagens nacionais. ",
+                " Muitas vezes, cidade meno populres oferecem experiências incríveis a preços baixo. ",
+                ]
             },
             {
                 texto: " Acima de três salários mínimos ",
-                afirmacao: " Você irá adorar conhecer novos países. ",
+                afirmacao: [ " Você irá adorar conhecer novos países. ",
+                    " Desfrute o momento, aproveite a liberdade de explorar novos lugares. ",
+                ]
             }
         ]
     },
@@ -56,11 +72,15 @@ export const perguntas = [
         alternativas: [
             {
                 texto: " Carro ou Motocicletas ",
-                afirmacao: " Seu destino pode ser próximo a você. ",
+                afirmacao: [ " Seu destino pode ser próximo a você. ",
+                " Mantenha a seguraça, sempre use cinto de segurança, capacete e roupas adequadas. ",
+                ]
             },
             {
                 texto: " Avião ou Ônibus ",
-                afirmacao: " Sair da sua zona de conforto e conhecer novos horizontes. ",
+                afirmacao: [ " Sair da sua zona de conforto e conhecer novos horizontes. ",
+                    " Chegue com antecedência ao local de espera. ",
+                ]
             }
         ]
     },
